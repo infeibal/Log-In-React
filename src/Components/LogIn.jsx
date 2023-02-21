@@ -13,7 +13,7 @@ const LogIn = (props) => {
             <h1>Log In</h1>
             <div className="login-conten">
                 <input maxLength={15} value={person.name} onChange={event => setPerson({...person, name: event.target.value})} type="text" placeholder="Имя"/>
-                <input maxLength={15} value={person.surname} onChange={event => setPerson({...person, surname: event.target.value})} type="text" placeholder="Фамия"/>
+                <input maxLength={15} value={person.surname} onChange={event => setPerson({...person, surname: event.target.value})} type="text" placeholder="Фамилия"/>
                 <input value={person.img} onChange={event => setPerson({...person, img: event.target.value})}type="text" placeholder="URL фото"/>
             </div>
             <button onClick={showUserCard}>

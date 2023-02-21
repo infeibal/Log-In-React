@@ -71,7 +71,12 @@ button {
 }
 
 .p {
+    display: flex;
+    min-height: 100px;
+    justify-content: center;
+    align-items: start;
     margin-top: 20px;
+    flex-direction: column;
 }
 
 p {
@@ -83,10 +88,10 @@ img {
     border: 2px solid rgb(178, 104, 248);
     border-radius: 8px;
     padding: 5px;
-    min-width: 100px;
-    min-height: 100px;
-    max-width: 150px;
-    max-height: 150px;
+    /* min-width: 100px;
+    min-height: 100px; */
+    width: 150px;
+    height: 150px;
     margin-right: 15px;
 }
 

@@ -96,4 +96,7 @@ img {
         justify-content: start;
         align-items: center;
     }
+    .login-div {
+        width: 300px;
+    }
 }
